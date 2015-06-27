@@ -1,0 +1,7 @@
+web:
+  build: .
+  volumes:
+    - /Users/shroff/Projects/go/src/github.com/aakritishroff:/go/src/github.com/aakritishroff
+  ports:
+    - "8080:8080"
+  #command: revel run github.com/jmedding/my_revel_project dev
